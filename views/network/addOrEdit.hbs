@@ -1,0 +1,138 @@
+<h3>{{viewTitle}}</h3>
+ <style>
+        #box {
+            background-color: #fff;
+            margin-top: 2%;
+            margin-left: 35%;
+            margin-right: 30%;
+            -webkit-box-shadow: 10px 10px 20px 1px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 10px 10px 20px 1px rgba(0, 0, 0, 0.75);
+            box-shadow: 10px 10px 20px 1px rgba(0, 0, 0, 0.75);
+            border-radius: 10px 10px 10px 10px;
+            -moz-border-radius: 10px 10px 10px 10px;
+            -webkit-border-radius: 10px 10px 10px 10px;
+            border: 0px solid #000000;
+            width: 30%;
+            height: 20%;
+            padding: 2%;
+            
+           
+        }
+        form label{
+            font-weight: bold;
+            color: #006400;
+        }
+    </style>
+<form action = '/network' method="POST" autocomplete="off" >
+<!-- pcName, newIP, gateway, mac,    ciscoPort, userName, location, birou,    apps, comp, connected, portLocSwitch,     so, phone, data, portSec -->
+    <input type="hidden" name="_id" value="{{network._id}}">
+<div  class="d-flex justify-content-between">
+    <div > 
+    <div class="form-group ">
+        <label>PC Name</label>
+        <input type="text" class="form-control" name="pcName" placeholder="PC Name" value="{{network.pcName}}">
+    </div>
+    <div class="form-group ">
+        <label>New IP</label>
+        <input type="text" class="form-control" name="newIP" placeholder="New IP" value="{{network.newIP}}">
+    </div>
+    <div class="form-row 6">
+        <div class="form-group ">
+            <label>Gateway</label>
+            <input type="text" class="form-control" name="gateway" placeholder="Gateway " value="{{network.gateway}}">
+        </div>
+        <div class="form-group ">
+            <label>Mac</label>
+            <input type="text" class="form-control" name="mac" placeholder="Mac " value="{{network.mac}}">
+        </div>
+    </div>
+
+    <div class="form-group ">
+        <label>Cisco Port</label>
+        <input type="text" class="form-control" name="ciscoPort" placeholder="Cisco Port *Number*" value="{{network.ciscoPort}}">
+    </div>
+    <div class="form-group ">
+        <label>User Name</label>
+        <input type="text" class="form-control" name="userName" placeholder="User Name " value="{{network.userName}}">
+    </div>
+    <div class="form-row">
+        <div class="form-group ">
+            <label>Location</label>
+            <input type="text" class="form-control" name="location" placeholder="Location " value="{{network.location}}">
+        </div>
+        <div class="form-group ">
+            <label>Birou</label>
+            <input type="text" class="form-control" name="birou" placeholder="Birou " value="{{network.birou}}">
+        </div>
+    </div>
+    </div>
+
+    <div > 
+    <div class="form-group ">
+        <label>Apps</label>
+        <input type="text" class="form-control" name="apps" placeholder="apps " value="{{network.apps}}">
+    </div>
+    <div class="form-group">
+        <label>Computer</label>
+        <input type="text" class="form-control" name="comp" placeholder="Computer " value="{{network.comp}}">
+    </div>
+    <div class="form-row ">
+        <div class="form-group ">
+            <label>Connected</label>
+            <input type="text" class="form-control" name="connected" placeholder="Connected " value="{{network.connected}}">
+        </div>
+        <div class="form-group ">
+            <label>Port Location Switch</label>
+            <input type="text" class="form-control" name="portLocSwitch" placeholder="Port *Number*" value="{{network.portLocSwitch}}">
+        </div>
+    </div>
+
+    <div class="form-group ">
+        <label>Operating System</label>
+        <input type="text" class="form-control" name="so" placeholder="Operating System " value="{{network.so}}">
+    </div>
+    <div class="form-group ">
+        <label>Phone</label>
+        <input type="text" class="form-control" name="phone" placeholder="Phone" value="{{network.phone}}">
+    </div>
+    <div class="form-row">
+        <div class="form-group ">
+            <label>Data</label>
+            <input type="text" class="form-control" name="data" placeholder="Data" value="{{network.data}}">
+        </div>
+        <div class="form-group ">
+            <label>Port Security</label>
+            <input type="text" class="form-control" name="portSec" placeholder="Port Security" value="{{network.portSec}}">
+        </div>
+    </div>
+    </div>
+    </div>
+    <br><br>
+    
+    
+    <div class="form-group">
+        <button type="submit" class="btn btn-info" onclick="myFunction()">Submit</button>
+            <script>
+                    function myFunction(){
+                    if(document.getElementById('button').clicked === true)
+                    {
+                        alert("button was clicked");
+                        var collection = db.collection('networks');  // get reference to the collection
+                        collection.find({Name: network.pcName}, {$exists: true}).toArray(function(err, doc) //find if a value exists
+                        {     
+                            if(doc) //if it does
+                            {
+                                console.log(doc); // print out what it sends back
+                            }
+                            else if(!doc) // if it does not 
+                            {
+                                console.log("Not in docs");
+                            }
+                        });
+                    }
+                }
+            </script>
+        <a class="btn btn-secondary" href="/network/list">View All</a>
+    </div>
+</form>
+

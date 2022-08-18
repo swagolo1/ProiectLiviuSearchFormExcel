@@ -1,0 +1,77 @@
+﻿pcName,newIP,gateway,mac,ciscoPort,userName,location,birou,apps,comp,connected,portLocSwitch,so,phone,data,portSec
+CF1WSVIASUM,172.21.13.23,172.21.1.200,8c89.a5ca.f019,47,margareta.viasu,SRLU,Birou RU,"I,M",INFRA,Cisco SG28p (172.21.13.104)- Mecanizare,5,"""""",173316,"""""",Da
+CF1WSIANUMIT,172.21.13.31,172.21.1.200,901b.0ef9.59e9,47,mitela.ianu,SRLU,Financiar-Contabilitate,"I,M,SALARII",INFRA,Cisco SG28p (172.21.13.104)- Mecanizare,20,"""""",173313,04.05.2017,Da
+CF1WSGUTESKUF,172.21.13.32,172.21.1.200,0014.85d1.f6de,47,florinela.gutescu,SRLU,Aprovizionare,"I,M",INFRA,TPLink 8p - Aprovizionare,2,"""""",173305,04.05.2017,Da
+CF1WSIONGEO,172.21.13.33,172.21.1.200,6cf0.495d.9bea,47,dragos.marghescu,SRLU,Mecanizare,"I,M,OSCAR RU",INFRA,Cisco SG28p (172.21.13.104)- Mecanizare,8,"""""","""""",04.05.2017,Da
+CF1WSVASSSILESC,172.21.13.34,172.21.1.200,74d4.352e.a574,47,valentin.vasilescu,SRLU,Sef SIMC,"I,M",INFRA,Cisco SG28p (172.21.13.104)- Mecanizare,4,"""""",173300,04.05.2017,Da
+IORDACHEGA,172.21.13.35,172.21.1.200,0016.7642.640d,47,mirela.vucescu,SRLU,Financiar-Contabilitate,"I, Sigma",INFRA,Cisco SG28p (172.21.13.104)- Mecanizare,7,WXP,173313,04.05.2017,Da
+CF1WSMACOVEIC,172.21.13.36,172.21.1.200,0011.11da.f896,47,macrina.macovei,SRLU,Financiar-Contabilitate,"I, Sigma",INFRA,Cisco SG28p (172.21.13.104)- Mecanizare,3,WXP,173313,04.05.2017,Da
+CF1WSDOBRELUMIN,172.21.13.37,172.21.1.200,1c6f.65e7.75e0,47,luminita.dobre,SRLU,Aprovizionare,"I,M",INFRA,TPLink 8p - Aprovizionare,2,"""""",173307,04.05.2017,Da
+CF1WSBURTEADAN,172.21.13.38,172.21.1.200,94de.80c7.885c,47,daniel.burtea,SRLU,Sef atelier,"I,M",INFRA,TPLink 8p - Aprovizionare,2,"""""","""""",04.05.2017,Da
+CF1WSNEGOITACRI,172.21.13.41,172.21.1.200,408d.5ca1.019c,47,cristina.negoita,SRLU,Mecanizare,"I,M",INFRA,Cisco SG28p (172.21.13.104)- Mecanizare,11,"""""",173304,22.11.2017,Da
+CF1WSRADUIUL,172.21.13.42,172.21.1.200,001e.37f4.7cb6,47,iulia.radu,SRLU,Mecanizare,"I,M",INFRA,Cisco SG28p (172.21.13.104)- Mecanizare,16,"""""",173304,22.11.2017,Da
+CF1WSENACHEMAR,172.21.12.43,172.21.1.200,001a.4d3f.ded3,47,daniel.filimon,SRLU,Ingineri,"I,M",INFRA,Cisco SG28p (172.21.13.104)- Mecanizare,15,"""""",173314,22.11.2017,Da
+CF1WSBUCURMIR,172.21.13.48,172.21.1.200,902b.34b8.bdae,47,florentin.gheorghe,SRLU,Financiar-Contabilitate,"I,M",INFRA,Cisco SG28p (172.21.13.104)- Mecanizare,23,"""""",173313,22.11.2017,Da
+CF1WSPIRVUMIH,172.21.13.45,172.21.1.200,0030.f118.5ae9,47,mihaela.pirvu,SRLU,Sef Contabil,"I,M",INFRA,Cisco SG28p (172.21.13.104)- Mecanizare,17,"""""",173313,22.11.2017,Da
+CF1WSFLOREABOG,172.21.13.46,172.21.1.200,7085.c23d.49d7,47,bogdan.n.florea,SRLU,Mecanizare,"I,M",INFRA,Cisco SG28p (172.21.13.104)- Mecanizare,10,"""""","""""","""""",Da
+CF1WSMOCIOIUMAR,172.21.13.39,172.21.1.200,6cf0.494d.f5a8,47,mariana.mocioiu,SRLU,Mecanizare,"I,M",INFRA,Cisco SG28p (172.21.13.104)- Mecanizare,19,"""""",173304,22.11.2017,Da
+CF1WSSTANCIUI,172.21.13.47,172.21.1.200,50e5.49a0.77d7,47,ion.stanciu,SRLU,Sindicat,"I,M",INFRA,TPLink 8p - Aprovizionare,2,"""""",724399294,"""""",Da
+CF1LPBRANISTEAN,172.21.13.49,172.21.1.200,b4a9.fc8a.dcce,47,vlad.branisteanu,SIMC - Infra,Sef Contabil Vecin,"I,M",INFRA,Cisco SG28p (172.21.13.104)- Mecanizare,9,w10,"""""",07.09.2020,Da
+CF1WSMIRCEAM,172.21.13.50,172.21.1.200,74d4.35ff.a97d,47,mariana.B.mircea,SIMC - Infra,Aprovizionare,I,INFRA,TPLink 8p - Aprovizionare,2,WXP,173307,04.05.2017,Da
+"""""","""""","""""","""""","""""",CabluLiber ,SIMC - Infra,Ingineri,"I,M",INFRA,Cisco SG28p (172.21.13.104)- Mecanizare,"""""","""""","""""",04.05.2017,""""""
+"""""","""""","""""","""""","""""",CabluLiber ,SIMC - Infra,Mecanizare,"I,M",INFRA,Cisco SG28p (172.21.13.104)- Mecanizare,"""""","""""","""""","""""",""""""
+"""""","""""","""""","""""","""""",CabluLiber ,SIMC - Infra,Mecanizare,"I,M",INFRA,Cisco SG28p (172.21.13.104)- Mecanizare,14,"""""","""""","""""",""""""
+"""""","""""","""""","""""","""""",CabluLiber ,SIMC - Infra,Secretariat,"I,M",INFRA,Cisco SG28p (172.21.13.104)- Mecanizare,"""""","""""","""""","""""",""""""
+CL1WSMANOLAKKE,172.21.13.51,172.21.1.200,f493.9ff2.9c58,14,ionica.manolache,Grivita Rev,"Et.1, Scoala Personalului","I, M",Calatori,SMC 8p-Scoala Personalului,"""""",WXP,174679,04.05.2017,""""""
+CL1WSMANEAIUL,172.21.13.52,172.21.1.200,98ee.cb55.71d6,15,iulian.manea,Grivita Rev,"Et.1,Biroul Sef Adjunct Revizie","I, M",Calatori,Cisco 48p-SefAdjRev,"""""",WXP,174652,04.05.2017,""""""
+CL1WSVOICUC,172.21.13.53,172.21.1.200,0015.588d.b4c1,9,camelia.voicu,Grivita Rev,"Parter, Protectia Muncii",I M,Calatori,Cisco 48p-SefAdjRev,"""""",WXP,174661,04.05.2017,""""""
+CL1WSBOBARUFLO,172.21.13.54,172.21.1.200,6c62.6df5.a754,16,florin.bobaru,Grivita Rev,"Et.1, Contabilitate","I,M,Oracle",Calatori,Cisco 16p-Contabilitate,"""""",WXP,731990236,04.05.2017,""""""
+CL1IONESCUCON,172.21.13.55,172.21.1.200,f092.1cf1.c294,16,mihaela.toader,Grivita Rev,"Et.1, Contabilitate","I,M,Oracle",Calatori,Cisco 16p-Contabilitate,"""""",W7,0731.990.223,04.05.2017,""""""
+CL1WSCONSNTAANY,172.21.13.56,172.21.1.200,"""""",16,anisoara.constantin,Grivita Rev,"Et.1, Contabilitate","I,M,Sigma",Calatori,Cisco 16p-Contabilitate,"""""",WXP,"""""",04.05.2017,""""""
+CL1WSCERNEAGAB,172.21.13.57,172.21.1.200,f092.1cef.441a,16,gabriela.cernea,Grivita Rev,"Et.1, Contabilitate","I,M,Oracle",Calatori,Cisco 16p-Contabilitate,"""""",W7,731990223,04.05.2017,""""""
+CL1WSDUMITRUSYM,172.21.13.58,172.21.1.200,f493.9ff2.9be3,16,simona.dumitru,Grivita Rev,"Et.1, Contabilitate","I,M,Oracle",Calatori,Cisco 16p-Contabilitate,"""""",W7,731990236,04.05.2017,""""""
+CL1WSMOGOICRI,172.21.13.59,172.21.1.200,f493.9fea.c9d1,7,cristina.mogoi,Grivita Rev,"Et.1,Programare Calculatoare","I,M,SPEAR",Calatori,Dlink 5p-Programare Calculatoare,"""""",WXP,723339145,04.05.2017,""""""
+CL1WSDUMALEX,172.21.13.60,172.21.1.200,98ee.cb55.7148,7,mirela.mocanu,Grivita Rev,"Et.1,Programare Calculatoare","I,M,SPEAR",Calatori,Dlink 5p-Programare Calculatoare,"""""",WXP,"""""",04.05.2017,""""""
+CL1LPMIHALCEAA,172.21.13.61,172.21.1.200,e411.5b48.1402,17,alexandru.mihalcea,Grivita Rev,"Et.1,Biroul V2","I, M",Calatori,Cisco 48p-SefAdjRev,"""""",WXP,731990232,30.01.2018,""""""
+CL1WSFRANCULESC,172.21.13.62,172.21.1.200,f092.1cf1.c3b3,12,ciprian.franculescu,Grivita Rev,"Et.1, Sef Revizie","I,M",Calatori,Cisco 48p-SefAdjRev,"""""",W7,174650,04.05.2017,""""""
+CL1WSMOCANUP,172.21.13.63,172.21.1.200,98ee.cb55.717f,13,petre.mocanu,Grivita Rev,"Et.1, Sef Adjunct Revizie","I,M ",Calatori,Cisco 48p-SefAdjRev,"""""",W7,174652,04.05.2017,""""""
+CF1WSBALULESCUS,172.21.13.64,172.21.1.200,0019.6641.1d2d,18,stanica.balulescu,Grivita Rev,"Et.1, Biroul V2","I,M",Calatori,Cisco 48p-SefAdjRev,"""""",WXP,"""""",30.01.2018,""""""
+CL1WSSAVUFLO,172.21.13.66,172.21.1.200,0014.85dc.54c9,1,florica.savu,Grivita Rev,"Et.1, Financiar","Salarii, Stan",Calatori,Cisco 8p - Financiar,"""""",WXP,"""""",04.05.2017,""""""
+CL1WSANGHELCON,172.21.13.67,172.21.1.200,"""""",1,roxana.mircioiu(andreea.ionita),Grivita Rev,"Et.1, Financiar","I,M,Oracle",Calatori,Cisco 8p - Financiar,"""""",WXP,0731.990.236,04.05.2017,""""""
+SALARIGRIVITA,172.21.13.68,172.21.1.200,98de.d004.086e,1,roxana.mircioiu(constanta.anghel),Grivita Rev,"Et.1, Financiar","I,M,Salarii,Stan",Calatori,Cisco 8p - Financiar,"""""",WXP,"""""",04.05.2017,""""""
+ATHANASIADES,172.21.13.69,172.21.1.200,50e5.49ea.83e8,1,roxana.mircioiu(constanta.anghel),Grivita Rev,"Et.1, Financiar","I,M, Salarii",Calatori,Cisco 8p - Financiar,"""""",WXP,"""""",04.05.2017,""""""
+CL1WSPOROJANIS,172.21.13.93,172.21.1.200,50e5.49ea.7d6e,1,isabela.porojan,Grivita Rev,"Et.1, Financiar","I,M,Oracle",Calatori,Cisco 8p - Financiar,"""""",WXP,0731.990.236,2019,""""""
+CF1WSIANCUCRI,172.21.13.70,172.21.1.200,f493.9ff2.9f84,10,cristina.iancu,Grivita Rev,"Parter,Birou V3 Mecanic Sef",I,Calatori,Cisco 48p-SefAdjRev,"""""",WXP,731990228,04.05.2017,""""""
+CL1WSGRVSAL,172.21.13.71,172.21.1.200,98ee.cb55.70fd,1,roxana.mircioiu,Grivita Rev,"Et.1, Financiar","I,M",Calatori,Cisco 8p - Financiar,"""""","""""","""""","""""",""""""
+CL1WSTINKAIUL,172.21.13.72,172.21.1.200,98ee.cb55.7191,1,iuliana.tinca,Grivita Rev,"Et.1, Financiar","I,M",Calatori,Cisco 8p - Financiar,"""""","""""","""""","""""",""""""
+CF1WSSIMAY,172.21.13.73,172.21.1.200,98ee.cb55.70be,1,"""""","""""","""""","""""","""""","""""","""""","""""","""""","""""",""""""
+CL1WSSAVFLORY,172.21.13.74,172.21.1.200,98ee.cb55.70cf,1,"""""","""""","""""","""""","""""","""""","""""","""""","""""","""""",""""""
+CL1WSANGHELC,172.21.13.75,172.21.1.200,98ee.cb55.703f,1,"""""","""""","""""","""""","""""","""""","""""","""""","""""","""""",""""""
+CL1WSGLADCENCOL,172.21.13.123,172.21.1.200,0025.22bf.739b,20,laura.gladcenco,Grivita Rev,"Parter,","I,M",Calatori,Cisco 48p-SefAdjRev,"""""",W7,"""""",11.09.2019,""""""
+CL1WSNAPSANDINA,172.21.13.79,172.21.1.200,f092.1cf1.c6f3,6,sandina.nap,Grivita Rev,"Et.1, Resurse Umane","I,Oscar RU,Oscar PO",Calatori,Cisco 48p-SefAdjRev,"""""",WXP,174.684,04.05.2017,""""""
+CL1WSMIRCIOIUR,172.21.13.81,172.21.1.200,f493.9ff2.9b49,16,roxana.mircioiu,Grivita Rev,"Et.1, Contabilitate","I,M,Oracle",Calatori,Cisco 16p-Contabilitate,"""""",WXP,0731.990.223,04.05.2017,""""""
+CL1WSIOANCAROB,172.21.13.82,172.21.1.200,f493.9fea.c86b,47,robert.ioanca,Grivita Rev,Aprovizionare,"I,M",Calatori,sw aprovizionare,"""""","""""",731990229,22.03.2019,""""""
+CL1WSMIHAIA,172.21.13.83,172.21.1.200,001d.7d30.32d8,47,anamaria.mihai,Grivita Rev,Aprovizionare,"I,M",Calatori,sw aprovizionare,"""""","""""",731990229,15.10.2019,""""""
+CL1WSGANCEAANI,172.21.13.84,172.21.1.200,f092.1cef.44d1,5,ani.gancea,Grivita Rev,"Et.1, Secretariat","I,M",Calatori,Cisco 48p-SefAdjRev,"""""",W7,"""""",04.05.2017,""""""
+CL1WSATHANASIAD,172.21.13.85,172.21.1.200,f092.1cf1.c4ab,3,elena.athanasiade,Grivita Rev,"Et.1, Resurse Umane","I,M",Calatori,Cisco 48p-SefAdjRev,"""""",W7,0731.990.224,04.05.2017,""""""
+CL1WSGAVRISM,172.21.13.86,172.21.1.200,f493.9fea.c89b,8,magda.gavris,Grivita Rev,"Et.1, Resurse Umane","I,M",Calatori,Cisco 48p-SefAdjRev,"""""",WXP,0731.990.224,04.05.2017,""""""
+CL1WSMATEESCUM,172.21.13.87,172.21.1.200,f493.9fea.c883,2,danut.mantescu/monica.mateescu,Grivita Rev,"Et.1,Birou Telespicher","I,M",Calatori,Cisco 48p-SefAdjRev,"""""",WXP,174.675,04.05.2017,""""""
+CL1WSMANTAIOAN,172.21.13.88,172.21.1.200,0025.221b.88bc,1,ioana.manta,Grivita Rev,"Et.1, Financiar","I,M,Salarii,Stan",Calatori,Cisco 8p - Financiar,"""""",WXP,"""""",04.05.2017,""""""
+CL1WSALEXANDRUD,172.21.13.89,172.21.1.200,f493.9ff2.9e9e,16,daniela.alexandru,Grivita Rev,"Et.1, Contabilitate","I,M,Oracle",Calatori,Cisco 16p-Contabilitate,"""""",WXP,0731.990.223,04.05.2017,""""""
+CL1WSMACEACAV,172.21.13.90,172.21.1.200,480f.cf59.0714,47,veronica.maceaca,Grivita Rev,Aprovizionare,"I,M",Calatori,sw aprovizionare,"""""",w8,731990229,04.05.2017,""""""
+CL1WSCYUCANUDOR,172.21.13.91,172.21.1.200,98ee.cb55.707b,47,dorina.ciucanu,Grivita Rev,Aprovizionare,"I,M",Calatori,sw aprovizionare,"""""",w10,731990229,04.05.2017,""""""
+CL1WSDOROBANTUV,172.21.13.92,172.21.1.200,90e6.bae3.5025,19,valentina.dorobantu,Grivita Rev,"Et.1, Resurse Umane","I,M",Calatori,Cisco 48p-SefAdjRev,"""""","""""","""""",20.06.2019,""""""
+CL1WSSTOICESCUAL,172.21.13.110,172.21.1.200,0019.b908.dae2,4,alina.m.stoicescu,Grivita Rev,"Et.1, Alimentatie Publica","I,M",Calatori-Gev,Linksys24p(Calatori)-Alimentatie Publica,"""""",WXP,175204,04.05.2017,""""""
+CL1WSMARUTADAN,172.21.13.111,172.21.1.200,0025.22c1.6133,4,daniela.maruta,Grivita Rev,"Et.1, Vagoane Speciale,Conta","I,M,Oracle",Calatori-Gev,Linksys24p(Calatori)-Alimentatie Publica,"""""",W7,175207,04.05.2017,""""""
+CL0WSSTANCIUM,172.21.13.112,172.21.1.200,0013.8f3b.2566,4,mariana.n.stanciu,Grivita Rev,"Et.1, Vagoane Speciale,Conta","I,M,Oracle",Calatori-Gev,Linksys24p(Calatori)-Alimentatie Publica,"""""",W98,175207,04.05.2017,""""""
+CL1WSCHIVUI,172.21.13.113,172.21.1.200,0090.273c.1312,4,ileana.chiru,Grivita Rev,"Et.1, Vagoane Speciale,Conta","I,M,Oracle",Calatori-Gev,Sw. RPC (Calatori)-Vagoane Speciale,"""""",W98,175207,04.05.2017,""""""
+CL1WSPOPESCUIL,172.21.13.114,172.21.1.200,0003.47ff.807f,4,ileana.popescu,Grivita Rev,"Et.1, Vagoane Speciale,Conta","I,M,Oracle",Calatori-Gev,Sw. RPC (Calatori)-Vagoane Speciale,"""""",W98,175207,04.05.2017,""""""
+CL1WSMURARUI,172.21.13.115,172.21.1.200,f092.1cf1.c6c7,4,ion.muraru,Grivita Rev,"Et.1, Sef Rev Adj","I,M",Calatori-Gev,Linksys24p(Calatori)-Alimentatie Publica,"""""",W7,175.203,04.05.2017,""""""
+CL1WSNICOLAEGHE,172.21.13.116,172.21.1.200,98ee.cb55.7089,4,nicolae.c.gheorghe,Grivita Rev,"Et.1, Serv. Intretinere si Receptie Vagoane","I,M",Calatori-Gev,Linksys24p(Calatori)-Alimentatie Publica,"""""",W7,175212,04.05.2017,""""""
+CL1WSBERNHARDTR,172.21.13.117,172.21.1.200,0015.609d.727f,4,rodica.bernhardt,Grivita Rev,"Et.1, Serv. Intretinere si Receptie Vagoane","I,M",Calatori-Gev,Linksys24p(Calatori)-Alimentatie Publica,"""""",WXP,175212,04.05.2017,""""""
+CL1WSCOJOCARUA,172.21.13.118,172.21.1.200,0019.665b.79b9,4,alexandru.cojocaru,Grivita Rev,"Et.1, Serv. Intretinere si Receptie Vagoane","I,M",Calatori-Gev,Linksys24p(Calatori)-Alimentatie Publica,"""""","""""","""""",04.05.2017,""""""
+CL1WSSTANCIUMA,172.21.13.119,172.21.1.200,f493.9ff2.9b61,4,mariana.n.stanciu,Grivita Rev,"Et.1, Atelier Receptie, Urmarire si Echipare Vagoane","I,M",Calatori-Gev,"Surecom 8p(Calatori)-At. Receptie, Urmarire","""""",W7,175206,04.05.2017,""""""
+CL1WSBADEAL,172.21.13.120,172.21.1.200,0015.609d.727f,4,lucica.badea,Grivita Rev,"Et.1, Atelier Receptie, Urmarire si Echipare Vagoane","I,M",Calatori-Gev,"Surecom 8p(Calatori)-At. Receptie, Urmarire","""""",WXP,175206,04.05.2017,""""""
+CL1WSTUGURLANA,172.21.13.121,172.21.1.200,000d.6100.b0bb,4,laurentiu.m.popescu,Grivita Rev,"Et.1, Atelier Receptie, Urmarire si Echipare Vagoane","I,M",Calatori-Gev,"Surecom 8p(Calatori)-At. Receptie, Urmarire","""""",WXP,175206,04.05.2017,""""""
+NPI2D6B3B,172.21.13.122,172.21.1.200,fc15.b42d.6b3b,4,imprimanta HP LaserJet 700 M712 ,Grivita Rev,"Et.1, Atelier Receptie, Urmarire si Echipare Vagoane","I,M",Calatori-Gev,Sw. RPC (Calatori)-Vagoane Speciale,"""""","""""",175206,04.05.2017,""""""
+CL1WSPOPESCUL,172.21.13.199,172.21.1.200,98ee.cb55.70c7,4,laurentiu.m.popescu,Grivita Rev,"Et.1, Vagoane Speciale,Conta","""""","""""","""""","""""","""""",172206,"""""",""""""

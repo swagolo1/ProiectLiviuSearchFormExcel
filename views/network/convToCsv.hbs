@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="https://unpkg.com/xlsx/dist/shim.min.js"></script>
+    <script lang="javascript"      src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
+    
+</head>
+
+</style>
+<body>
+   <div>
+    <h3 ><a class="btn btn-secondary" href="/">Main page</a></h3>
+    <!-- <button class="btn btn-secondary" onclick="csvToJson()">Convert to Json</button>-->
+
+    <br>
+    <input type="file" id="file-selector" class="btn btn-secondary" >
+    {{!-- Value: <input type="text" id="value" > --}}
+    
+    <button onclick="convertToCSV()" class="btn btn-secondary" >Convert</button>
+    <br><br>
+    <h3 ><a class="btn btn-secondary" href="/network/json">Convert to JSON</a></h3>
+    <br>
+    </div>
+</body>
+    <script>
+        function convertToCSV(){
+            const file = document.getElementById("file-selector").files[0];
+
+            //const value = document.getElementById("value").value;
+
+            file.arrayBuffer().then((res) => {
+                let data = new Uint8Array(res);
+                let workbook = XLSX.read(data, {type: "array"});
+                let first_sheet_name = workbook.SheetNames[0];
+                console.log("Sheet Name: ",first_sheet_name);
+                let worksheet = workbook.Sheets[first_sheet_name];
+                let jsonData = XLSX.utils.sheet_to_json(worksheet, {raw: true});
+                console.log("JSON", jsonData);
+                let json = jsonData.map((x) => ({
+                    ...x
+                    // ColumnName: value,
+                    // ColumnName2: "value2"
+                }))
+                let fileNameWithoutExtension = file.name.substring(0,file,name.lastIndexOf("."));
+                let new_worksheet = XLSX.utils.json_to_sheet(json);
+                let new_workbook = XLSX.utils.book_new();
+                XLSX.utils.book_append_sheet(new_workbook,new_worksheet,"CSV_Sheet");
+                XLSX.writeFile(new_workbook,fileNameWithoutExtension + ".csv");
+            });
+        }
+
+        function csvToJson(){
+
+            /*
+            const csvtojson = require("csvtojson");
+            const mongodb = require("mongodb").MongoClient;
+            // let url = "mongodb://username:password@localhost:27017/";
+            let url = "mongodb://localhost:27017/";
+            csvtojson()
+              .fromFile("file.csv")
+              .then(csvData => {
+                console.log(csvData);
+            
+            mongodb.connect(
+              url,
+              { useNewUrlParser: true, useUnifiedTopology: true },
+              (err, client) => {
+                if (err) throw err;
+                client
+                  .db("NetworkDB")
+                  .collection("networks")
+                  .insertMany(csvData, (err, res) => {
+                    if (err) throw err;
+                    console.log(`Inserted: ${res.insertedCount} rows`);
+                    client.close();
+                  });
+              }
+            );
+            }); */
+
+        }
+    </script>
+</html>
