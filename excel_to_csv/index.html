@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="https://unpkg.com/xlsx/dist/shim.min.js"></script>
+    <script lang="javascript"      src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
+</head>
+<body>
+    <input type="file" id="file-selector">
+    Value: <input type="text" id="value">
+    <button onclick="convertToCSV()">Convert</button>
+</body>
+    <script>
+        function convertToCSV(){
+            const file = document.getElementById("file-selector").files[0];
+
+            const value = document.getElementById("value").value;
+
+            file.arrayBuffer().then((res) => {
+                let data = new Uint8Array(res);
+                let workbook = XLSX.read(data, {type: "array"});
+                let first_sheet_name = workbook.SheetNames[0];
+                console.log("Sheet Name: ",first_sheet_name);
+                let worksheet = workbook.Sheets[first_sheet_name];
+                let jsonData = XLSX.utils.sheet_to_json(worksheet, {raw: true});
+                console.log("JSON", jsonData);
+                let json = jsonData.map((x) => ({
+                    ...x
+                    // ColumnName: value,
+                    // ColumnName2: "value2"
+                }))
+                let fileNameWithoutExtension = file.name.substring(0,file,name.lastIndexOf("."));
+                let new_worksheet = XLSX.utils.json_to_sheet(json);
+                let new_workbook = XLSX.utils.book_new();
+                XLSX.utils.book_append_sheet(new_workbook,new_worksheet,"CSV_Sheet");
+                XLSX.writeFile(new_workbook,fileNameWithoutExtension + ".csv");
+            });
+        }
+    </script>
+</html>

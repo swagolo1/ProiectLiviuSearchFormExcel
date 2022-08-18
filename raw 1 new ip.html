@@ -1,0 +1,67 @@
+//raw 1 new ip
+        td = tr[i].getElementsByTagName("td")[1];
+        if (td) {
+          txtValue = td.textContent || td.innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            //tr[i].style.display = "";
+            semafor = 1;
+          } else {
+            //tr[i].style.display = "none";
+            
+          }
+        }
+
+        // raw 5 user name
+        td = tr[i].getElementsByTagName("td")[5];
+        if (td) {
+          txtValue = td.textContent || td.innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            //tr[i].style.display = "";
+            semafor = 1;
+          } else {
+            //tr[i].style.display = "none";
+          }
+        }
+
+        // raw 6 location
+        td = tr[i].getElementsByTagName("td")[6];
+        if (td) {
+          txtValue = td.textContent || td.innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            //tr[i].style.display = "";
+            semafor = 1;
+          } else {
+            //tr[i].style.display = "none";
+          }
+        }
+
+        // raw 11 switch
+        td = tr[i].getElementsByTagName("td")[11];
+        if (td) {
+          txtValue = td.textContent || td.innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            //tr[i].style.display = "";
+            semafor = 1;
+          } else {
+            //tr[i].style.display = "none";
+          }
+        }
+
+
+        <div class="search">
+<input class="md-form mt-0" type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for PC names.." title="Type in a name" >
+</div>
+
+<style>
+   /* styling search bar */
+    .search input[type=text]{
+        height: 0px;
+        border-radius:50px;
+        border: 10;
+    }
+          
+    .search{
+        float:left;
+        margin:7px;
+    }
+</style>
